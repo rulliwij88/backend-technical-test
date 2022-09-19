@@ -1,0 +1,24 @@
+{
+  "name": "skyshi-be-test",
+  "version": "1.0.0",
+  "description": "Backend Developer Technical Test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development npx sequelize-cli db:migrate && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marulli wijanarko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pm2": "^5.2.0",
+    "sequelize": "^6.22.1",
+    "sequelize-cli": "^6.3.0",
+    "mysql2": "^2.2.5",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "validator": "^13.6.0"
+  }
+}
